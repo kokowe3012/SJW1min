@@ -1,170 +1,32 @@
 local CodesEvent = game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Misc"):WaitForChild("CodesEvent")
-local Code1 = "FIXFIXFIX"
-local Code2 = "ATSSOCIETY"
-local Code3 = "SORRYFORDELAY2"
-local Code4 = "SORRYFORDELAY1"
-local Code5 = "UPDATE1BUGS"
-
-_G.loop = true
-
 local function sendCode1()
     local args = {
-        Code
+        Code1
     }
     CodesEvent:FireServer(unpack(args))
 end
 
-local function sendCode2()
-    local args = {
-        Code2
-    }
-    CodesEvent:FireServer(unpack(args))
-end
-
-local function sendCode3()
-    local args = {
-        Code3
-    }
-    CodesEvent:FireServer(unpack(args))
-end
-
-local function sendCode4()
-    local args = {
-        Code4
-    }
-    CodesEvent:FireServer(unpack(args))
-end
-
-local function sendCode5()
-    local args = {
-        Code5
-    }
-    CodesEvent:FireServer(unpack(args))
-end
-
-while _G.loop do
-    for i = 1, 250 do
-        task.spawn(function()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-            sendCode1()
-        end)
-    end
-    task.wait(15)
-    for i = 1, 250 do
-        task.spawn(function()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-            sendCode2()
-        end)
-    end
-    task.wait(15)
-    for i = 1, 250 do
-        task.spawn(function()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-            sendCode3()
-        end)
-    end
-    task.wait(15)
-    for i = 1, 250 do
-        task.spawn(function()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-            sendCode4()
-        end)
-    end
-    task.wait(15)
-    for i = 1, 250 do
-        task.spawn(function()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-            sendCode5()
-        end)
-    end
+for i = 1, 250 do
+    task.spawn(function()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+        sendCode1()
+    end)
 end
