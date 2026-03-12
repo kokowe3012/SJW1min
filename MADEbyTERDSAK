@@ -1,7 +1,7 @@
 local CodesEvent = game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Misc"):WaitForChild("CodesEvent")
 local function sendCode1()
     local args = {
-        Code1
+        _G.Code1
     }
     CodesEvent:FireServer(unpack(args))
 end
